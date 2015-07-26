@@ -8,7 +8,12 @@ class EventsController < ApplicationController
   end
 
   def edit
-    @event = Event.find(params[:id])
+    @event = Event.find_by(password: params[:password])
+    if !@event
+      redirect_to 'index'
+    else
+      render 'edit'
+    end
   end
 
   def update
