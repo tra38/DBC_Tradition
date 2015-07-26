@@ -1,0 +1,15 @@
+<table>
+<tr>
+  <strong><th>Title</th><th>Description</th><th>Gimmick</th></strong>
+</tr>
+<% @events.each do |event| %>
+  <tr>
+    <td><%= event.title%></td>
+    <td><%= event.description %></td>
+    <td><%= event.gimmick %></td>
+    <td><%= link_to 'Show', event_path(event) %></td>
+    <td><%= link_to 'Edit', edit_event_path(event)%></td>
+  </tr>
+<%end%>
+
+<%= link_to 'Add a New Event', new_event_path %>

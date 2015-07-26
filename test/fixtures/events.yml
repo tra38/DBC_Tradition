@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyString
-  running_gag: MyString
+  title: MyString
+  description: MyText
+  gimmick: MyText
 
 two:
-  name: MyString
-  description: MyString
-  running_gag: MyString
+  title: MyString
+  description: MyText
+  gimmick: MyText
