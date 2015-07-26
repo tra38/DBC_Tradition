@@ -33,7 +33,7 @@ Event.create(
 Event.create(
   title: "Quirk",
   description: "A new person entering the DBC space is expected to mention a 'quirk' about themselves.",
-  gimmick: "If someone forgets, a few people within the group would say 'Quirk."
+  gimmick: "If someone forgets, a few people within the group would say 'QUIRK!'."
   )
 
 Event.create(
