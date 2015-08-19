@@ -3,9 +3,9 @@ class EventsController < ApplicationController
     @events = Event.all
   end
 
-  def new
-    @event = Event.new
-  end
+  # def new
+  #   @event = Event.new
+  # end
 
   def edit
     @event = Event.find_by(password: params[:password])
